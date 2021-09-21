@@ -1,5 +1,21 @@
 .rightbar {
   background-color: $columnBackgroundColor;
   height: 600px;
+  
 }
+.row{
+  display: flex;
+  max-width: 100%;
 
+  .card1{
+  @include containers-sbr;
+    p{
+      .link-card1{
+        color: $linkfontcolorsbr;
+      }
+    }
+  }
+  .card-listings{
+    @include containers-sbr;
+  }
+}

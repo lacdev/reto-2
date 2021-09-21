@@ -107,6 +107,33 @@ header {
   height: 600px;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+}
+
+.row .card1 {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 3%;
+  color: black;
+}
+
+.row .card1 p .link-card1 {
+  color: #616ce4;
+}
+
+.row .card-listings {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 3%;
+  color: black;
+}
+
 .footer {
   background-color: #d6d6d7;
   height: 300px;
