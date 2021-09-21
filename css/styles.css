@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,11 +8,88 @@
 
 body {
   background-color: #efefef;
+  font-size: 16px;
 }
 
-.page-wrapper {
-  background-color: #efefef;
-  height: 100vh;
+.banner {
+  background-color: #323da3;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 32px;
+  margin: 32px 0;
+  position: relative;
+}
+
+.banner-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-header {
+  margin: 10px 0;
+}
+
+.banner-header .banner-title {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.campaign-image {
+  height: 193px;
+  width: 420px;
+  margin: 10px 0;
+}
+
+.banner-secondary-content {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+
+.call-to-action-banner {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  color: black;
+  padding: 30px 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+.call-to-action-banner .call-to-action-link {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.close-banner-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  right: 32px;
+  top: 16px;
+}
+
+header {
+  background-color: white;
+  height: 100px;
 }
 
 .leftbar {
@@ -59,7 +137,12 @@ body {
 }
 
 .footer {
-  background-color: gray;
+  background-color: #d6d6d7;
   height: 300px;
+}
+
+.footer-content {
+  background-color: #d6d6d7;
+  max-height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

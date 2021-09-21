@@ -1,4 +1,9 @@
 .footer {
-  background-color: gray;
+  background-color: #d6d6d7;
   height: 300px;
+}
+
+.footer-content {
+  background-color: $footerBackgroundColor;
+  max-height: 100%;
 }
