@@ -94,36 +94,43 @@ header {
 
 .leftbar {
   background-color: transparent;
-  height: 600px;
 }
 
-.col-3 {
-  border: 1px solid #525050;
+/*a{
+     text-decoration: none;
+     border-radius: 5px;
+     padding: 10px 20px 8px 8px;
+     transition: all 300ms cubic-bezier(0.17, 0.67, 0.5, 0.71);
+            color: #242424;
+            &:hover{
+                background: #0909090d;
+                color: #323ebe;
+            }
+            svg{
+                margin-right: 0.5rem;
+            }
+ }
+ 
+}*/
+.leftbar-contenido {
+  border-radius: 10px;
+  background-color: transparent;
 }
 
-.col-12 {
+.leftbar-links {
   max-width: 100%;
-  height: 35px;
-  background: #efefef;
-  padding: 0px;
+  margin: 10px 0;
 }
 
-.col-12 a {
+.leftbar-links .left-link {
   text-decoration: none;
-  border-radius: 5px;
-  padding: 8px 8px 8px 8px;
-  -webkit-transition: all 300ms cubic-bezier(0.17, 0.67, 0.5, 0.71);
-  transition: all 300ms cubic-bezier(0.17, 0.67, 0.5, 0.71);
-  color: #242424;
+  color: black;
+  font-weight: 600;
 }
 
-.col-12 a:hover {
-  background: #0909090d;
-  color: #323ebe;
-}
-
-.col-12 a svg {
-  margin-right: 0.5rem;
+.leftbar-links:hover {
+  background-color: gray;
+  border-radius: 10px;
 }
 
 .articles {
