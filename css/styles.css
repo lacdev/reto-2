@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+}
+
+.page-wrapper {
+  background-color: #efefef;
+  height: 100vh;
+}
+
+.leftbar {
+  background-color: transparent;
+  height: 600px;
+}
+
+.articles {
+  background-color: transparent;
+  height: 900px;
+}
+
+.rightbar {
+  background-color: transparent;
+  height: 600px;
+}
+
+.footer {
+  background-color: gray;
+  height: 300px;
+}
+/*# sourceMappingURL=styles.css.map */
