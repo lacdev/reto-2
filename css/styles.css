@@ -89,7 +89,6 @@ body {
 
 header {
   background-color: white;
-  height: 100px;
 }
 
 .leftbar {
@@ -109,11 +108,42 @@ header {
 
 .footer {
   background-color: #d6d6d7;
-  height: 300px;
 }
 
-.footer-content {
-  background-color: #d6d6d7;
-  max-height: 100%;
+.footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.footer .footer-content .footer-1 {
+  text-align: center;
+}
+
+.footer .footer-content .footer-1 .footer-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.footer .footer-content .footer-2 {
+  text-align: center;
+}
+
+.footer .footer-content .footer-2 .footer-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */
