@@ -1,9 +1,22 @@
 .footer {
-  background-color: #d6d6d7;
-  height: 300px;
-}
-
-.footer-content {
   background-color: $footerBackgroundColor;
-  max-height: 100%;
+
+  .footer-content {
+    @include footerFlex();
+    padding: 30px;
+
+    .footer-1 {
+      text-align: center;
+      .footer-link {
+        @include footerLinks();
+      }
+    }
+
+    .footer-2 {
+      text-align: center;
+      .footer-link {
+        @include footerLinks();
+      }
+    }
+  }
 }
