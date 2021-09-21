@@ -1,4 +1,105 @@
 .pic {
-    width: 20px;
-    border-radius: 20px;
+    width: 40px;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.profile {
+    // display: inline-block;
+    // width: 50%;
+    padding: 0;
+    
+    p {
+        margin: 0 0 2px 20px;
+    }
+}
+
+.post-card {
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: solid rgb(180, 176, 176) 0.05px;
+    
+}
+
+.name {
+    font-size: 1.1em;
+    color: black;
+}
+
+.date {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.note {
+    padding: 10px 50px;
+
+    .links {
+        padding-top: 10px;
+    }
+
+    .bottom {
+        padding: 0;
+    }
+}
+
+.bottom {
+    margin: 25px 0 0 0;
+}
+
+.title {
+    font-size: 1.7em;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.title:hover {
+    color: #323ebe;
+}
+
+.liga {
+    color: gray;
+}
+
+.liga:hover {
+    color: black;
+}
+
+.implinks {
+    color: rgb(36, 35, 35);
+    padding:10px;
+    font-size: 0.8em;
+}
+
+.implinks:hover {
+    color: black;
+    border-radius: 5px;
+    background: $mainBackgroundColor;    
+}
+
+.time {
+    color: gray;
+    font-size: 0.8em;
+    margin: 8px 0 0 12%;
+    padding-top: 6px;
+    display: inline-block;
+}
+
+.save {
+    display: inline-block;
+    padding: 3px 8px;
+    color: black;
+    background: rgb(201, 197, 197);
+    border-radius:5px;
+    margin-left: 5px;
+
+}
+.save:hover {
+    background: gray;
+}
+
+.corner {
+   padding: 0;
 }
