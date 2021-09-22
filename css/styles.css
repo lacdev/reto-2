@@ -94,6 +94,16 @@ header {
 
 .navbar {
   border-bottom: 1px solid #e0e0e0;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .left-nav-elements {
@@ -114,7 +124,7 @@ header {
   background-color: transparent;
   border-radius: 100px;
   margin-right: 10px;
-  border: none;
+  border: 50%;
 }
 
 .menu-button:active,
@@ -132,7 +142,7 @@ header {
 
 .form-control {
   padding: 7px 180px 7px 12px;
-  border: 2px solid transparent;
+  border: 1px solid #dbdbdb;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -140,14 +150,14 @@ header {
 .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 2px solid #3b49df;
+  border: 1px solid #3b49df;
 }
 
 .input-button {
   position: absolute;
-  top: 8px;
+  top: 6px;
   right: 8px;
-  bottom: 64px;
+  bottom: 16px;
   background-color: transparent;
   border: none;
 }
@@ -181,7 +191,8 @@ header {
 }
 
 .nav-notifications-container,
-.nav-comments-container {
+.nav-comments-container,
+.search-icon-container {
   background-color: transparent;
   border: 50%;
   width: 50px;
@@ -192,7 +203,8 @@ header {
 }
 
 .nav-comments-container,
-.nav-notifications-container {
+.nav-notifications-container,
+.search-icon-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -206,7 +218,8 @@ header {
 }
 
 .nav-notifications-container:hover,
-.nav-comments-container:hover {
+.nav-comments-container:hover,
+.search-icon-container:hover {
   background-color: #f6f6f6;
 }
 
@@ -231,6 +244,34 @@ header {
 .profile-pic-container .profile-picture {
   max-width: 100%;
   border-radius: 50%;
+}
+
+.dropdown-menu {
+  right: 0 !important;
+  left: auto !important;
+  margin: 5px;
+}
+
+.drop-user,
+.drop-settings {
+  border-bottom: 1px solid #c7c7c7;
+  width: 240px;
+}
+
+.drop-link {
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+.drop-link:hover {
+  background-color: #f2f2f2;
+}
+
+.username {
+  font-weight: 700;
+  color: #323da3;
+  font-size: 1.3rem;
 }
 
 .leftbar {
@@ -287,5 +328,40 @@ header {
   font-weight: 700;
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 750px) {
+  .form-container {
+    display: none;
+  }
+  .banner-title {
+    font-size: 1rem;
+  }
+  .banner-secondary-content {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .call-to-action-banner {
+    padding: 10px 10px;
+  }
+  .call-to-action-banner .call-to-action-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 750px) {
+  .search-icon-container {
+    display: none;
+  }
+}
+
+@media (max-width: 967px) {
+  .create-post-button {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
