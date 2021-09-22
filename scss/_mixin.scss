@@ -26,3 +26,29 @@
 //Mixins de Daniel
 
 //Mixins de Omar
+@mixin containers-sbr {
+    
+  background-color: $sidebarrightbgcolor ;
+  padding: 20px;
+  border-radius: 3%;
+  color:black;
+  margin-bottom: 20px;
+}
+
+@mixin header-bar{
+  background-color: $sidebarrightbgcolor;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
+}
+@mixin link-card1 {
+  color: $linkfontcolorsbr;
+  text-decoration: none;
+}
+@mixin hover-efect {
+  background-color: white;
+    color:$linkfontcolorsbr
+  
+}
