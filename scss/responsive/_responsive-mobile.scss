@@ -30,9 +30,12 @@
   .search-icon-container {
     display: none;
   }
+  .hamburguer-menu {
+    display: none;
+  }
 }
 
-@media (max-width: 967px) {
+@media (max-width: 990px) {
   .create-post-button {
     display: none;
   }
