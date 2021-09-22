@@ -642,6 +642,21 @@ header {
   font-size: 13px;
 }
 
+.post-leftbar {
+  height: 400px;
+  background-color: black;
+}
+
+.post-articles {
+  height: 750px;
+  background-color: aqua;
+}
+
+.post-rightbar {
+  height: 600px;
+  background-color: red;
+}
+
 .footer {
   background-color: #d6d6d7;
 }
