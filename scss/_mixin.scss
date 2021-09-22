@@ -43,3 +43,12 @@
       align-items: center;
       text-decoration: none;
 }
+@mixin link-card1 {
+  color: $linkfontcolorsbr;
+  text-decoration: none;
+}
+@mixin hover-efect {
+  background-color: white;
+    color:$linkfontcolorsbr
+  
+}
