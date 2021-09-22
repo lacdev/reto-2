@@ -90,6 +90,7 @@ body {
 
 header {
   background-color: white;
+  padding-bottom: 60px;
 }
 
 .navbar {
@@ -343,12 +344,10 @@ header {
 
 .articles {
   background-color: transparent;
-  height: 900px;
 }
 
 .rightbar {
   background-color: transparent;
-  height: 600px;
 }
 
 .footer {
