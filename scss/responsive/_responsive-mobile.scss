@@ -51,6 +51,21 @@
 }
 //Media queries Daniel
 
+@media (min-width:320px) and (max-width:754px) {
+    .profile {
+        padding: 0 20px;
+    }
+
+    .icon-text {
+      display: none;
+    }
+
+    .implinks {
+      padding: 0;
+    }
+
+}
+
 //Media queries Omar
 @media (min-width: 320px) and (max-width: 480px) {
   
