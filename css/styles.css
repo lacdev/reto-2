@@ -735,4 +735,16 @@ header {
     display: none;
   }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .leftbar {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .rightbar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
