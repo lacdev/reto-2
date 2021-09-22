@@ -25,35 +25,34 @@
 
 //Mixins de Daniel
 
-@mixin postcard () {
+@mixin postcard() {
   background-color: white;
   padding: 15px 20px;
   border-radius: 10px;
   border: solid rgb(180, 176, 176) 0.05px;
 }
 
-@mixin navbtn () {
+@mixin navbtn() {
   position: relative;
   color: black;
 }
 
 //Mixins de Omar
 @mixin containers-sbr {
-    
-  background-color: $sidebarrightbgcolor ;
+  background-color: $sidebarrightbgcolor;
   padding: 20px;
   border-radius: 3%;
-  color:black;
+  color: black;
   margin-bottom: 20px;
 }
 
-@mixin header-bar{
+@mixin header-bar {
   background-color: $sidebarrightbgcolor;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
 }
 @mixin link-card1 {
   color: $linkfontcolorsbr;
@@ -61,6 +60,5 @@
 }
 @mixin hover-efect {
   background-color: white;
-    color:$linkfontcolorsbr
-  
+  color: $linkfontcolorsbr;
 }
