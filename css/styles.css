@@ -20,6 +20,10 @@ li {
   list-style: none;
 }
 
+.main {
+  margin-top: 20px;
+}
+
 .banner {
   background-color: #323da3;
   max-width: 100%;
@@ -648,8 +652,147 @@ header {
 }
 
 .post-articles {
-  height: 750px;
-  background-color: aqua;
+  background-color: transparent;
+}
+
+.main-post {
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+}
+
+.main-post .post-image {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.post-header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-header-container .post-header {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.post-header-container .hashtags-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 50px;
+}
+
+.post-header-container .hashtags-container .post-hashtag {
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.post-header-container .hashtags-container .javascript-hashtag {
+  background-color: yellow;
+  color: black;
+}
+
+.post-header-container .hashtags-container .react-hashtag {
+  background-color: black;
+  color: aqua;
+}
+
+.post-header-container .hashtags-container .vue-hashtag {
+  background-color: green;
+  color: white;
+}
+
+.post-header-container .hashtags-container .programming-hashtag {
+  background-color: red;
+  color: white;
+}
+
+.author-info-container {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 20px 0 10px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.author-info-container .author-image {
+  border: 50%;
+  border-radius: 50px;
+}
+
+.author-info-container .author-link {
+  text-decoration: none;
+  background-color: #cfcfcf;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.author-info-container .author-info {
+  display: inline-block;
+}
+
+.post-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px;
+}
+
+.post-body-paragraph {
+  font-weight: 400;
+  color: black;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.post-body-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.title-image-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.title-image-container .title-image {
+  max-width: 100%;
+}
+
+.post-body-subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .post-rightbar {
