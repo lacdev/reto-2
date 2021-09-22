@@ -1,0 +1,126 @@
+header {
+  background-color: white;
+}
+
+.navbar {
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.left-nav-elements {
+  display: flex;
+  align-items: center;
+}
+
+.menu-image {
+  width: 25px;
+  height: 25px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border-radius: 100px;
+  margin-right: 10px;
+  border: none;
+}
+
+.menu-button:active,
+.menu-button:focus,
+.menu-button:visited,
+.menu-button:hover {
+  border: none;
+  background-color: rgb(245, 244, 244);
+  border-radius: 100px;
+}
+
+.form-container {
+  position: relative;
+}
+
+.form-control {
+  padding: 7px 180px 7px 12px;
+  border: 2px solid transparent;
+  transition-duration: 1s;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #3b49df;
+}
+
+.input-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  bottom: 64px;
+  background-color: transparent;
+  border: none;
+}
+
+.rigth-nav-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-post-button {
+  background-color: #3b49df;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.create-post-button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-notifications-container,
+.nav-comments-container {
+  background-color: transparent;
+  border: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.nav-comments-container,
+.nav-notifications-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-notifications-container:hover,
+.nav-comments-container:hover {
+  background-color: #f6f6f6;
+}
+
+.badge {
+  top: 16;
+  right: 26;
+  bottom: 70;
+}
+
+.profile-pic-container {
+  background-color: transparent;
+  border: 50%;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  margin: 0 8px;
+  cursor: pointer;
+  border: 2px solid gray;
+  padding: 2px;
+
+  .profile-picture {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+}
