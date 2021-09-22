@@ -42,12 +42,20 @@
 }
 
 //Media queries Brisah
-
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .leftbar{
+    display: none;
+  }
+  
+}
 //Media queries Daniel
 
 //Media queries Omar
-@media (min-width:360px) and (max-width: 750px){
+@media (min-width: 320px) and (max-width: 480px) {
+  
   .rightbar{
-      display: none;
+    display: none;
   }
+  
 }
