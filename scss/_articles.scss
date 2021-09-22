@@ -1,6 +1,12 @@
 .articles {
   background-color: $columnBackgroundColor;
   height: 1400px;
+
+  ul {
+    margin-bottom: 5px;
+    padding-left: 0.3rem;
+  }
+
 }
 
 .pic {
@@ -20,11 +26,7 @@
 }
 
 .post-card {
-  background-color: white;
-  padding: 15px 20px;
-  border-radius: 10px;
-  border: solid rgb(180, 176, 176) 0.05px;
-  
+  @include postcard ();  
 }
 
 .name {
@@ -111,9 +113,27 @@
 }
 
 .post-card2 {
-  background-color: white;
-  padding: 15px 20px;
-  border-radius: 10px;
-  border: solid rgb(180, 176, 176) 0.05px;
+  @include postcard ();
   margin-top: 10px;
+}
+
+.card-nav {
+  position: relative;
+  display: inline-block;
+  border-radius: 8px; 
+  padding: 12px 15px;
+}
+
+.card-link {
+  @include navbtn ();
+}
+
+.card-link-variant {
+  @include navbtn ();
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.card-nav:hover  {
+  background-color: rgb(203, 203, 206);
 }
