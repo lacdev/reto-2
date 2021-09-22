@@ -8,10 +8,7 @@
 }
 
 .banner-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include bannerFlex();
 }
 
 .banner-header {
