@@ -653,8 +653,58 @@ header {
 }
 
 .post-rightbar {
-  height: 600px;
-  background-color: red;
+  height: auto;
+  max-width: 100%;
+  background-color: #efefef;
+}
+
+.post-rightbar .profile {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 3%;
+  color: black;
+  margin-bottom: 20px;
+  border-top: 32px solid #d7810a;
+}
+
+.post-rightbar .profile .contenedor-img-nombre .img-nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-rightbar .profile .contenedor-img-nombre .img-nombre .img-profile img {
+  border-radius: 100%;
+  -webkit-box-shadow: gray;
+          box-shadow: gray;
+}
+
+.post-rightbar .profile .contenedor-img-nombre .img-nombre .nombre {
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.post-rightbar .profile .contenedor-img-nombre .img-nombre .nombre :hover {
+  color: #616ce4;
+}
+
+.post-rightbar .profile .boton-follow {
+  background-color: #323da3;
+  color: #efefef;
+  border-radius: 2%;
+  padding: 3px;
+  margin-top: 5px;
+  font-size: 13px;
 }
 
 .footer {

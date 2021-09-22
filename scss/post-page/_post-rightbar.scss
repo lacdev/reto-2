@@ -1,4 +1,46 @@
 .post-rightbar {
-  height: 600px;
-  background-color: red;
+  height: auto;
+  max-width: 100%;
+  background-color: #efefef;
+
+  .profile{
+    @include containers-sbr;
+    border-top:32px solid #d7810a;
+    .contenedor-img-nombre{
+      .img-nombre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .img-profile{
+          img{ border-radius: 100%;
+          box-shadow: gray;
+          }
+        }
+        .nombre{
+          display: block;
+          font-size: 15px ;
+          text-decoration: none;
+          color:black;
+          transition: .5s;
+          :hover{
+            color:$linkfontcolorsbr;
+          }
+        }
+
+      }
+
+    }
+    .boton-follow{
+      background-color: $bannerBackground;
+      color:$mainBackgroundColor;
+      border-radius: 2%;
+      padding: 3px;
+      margin-top:5px;
+      font-size: 13px;
+    }
+    
+  
+  }
+
 }
