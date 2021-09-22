@@ -745,13 +745,19 @@ header {
   }
   .implinks {
     padding: 0;
-    font-size: 0.6em;
   }
 }
 
-@media (min-width: 750px) and (max-width: 950px) {
+@media (min-width: 750px) and (max-width: 1100px) {
+  .rightbar {
+    display: none;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1100px) {
   .implinks {
     padding: 0;
+    font-size: 0.6em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
