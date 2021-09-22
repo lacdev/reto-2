@@ -15,107 +15,8 @@ a {
   text-decoration: none;
 }
 
-.pic {
-  width: 40px;
-  border-radius: 30px;
-  margin: 0;
-}
-
-.profile {
-  padding: 0;
-}
-
-.profile p {
-  margin: 0 0 2px 20px;
-}
-
-.post-card {
-  background-color: white;
-  padding: 15px 20px;
-  border-radius: 10px;
-  border: solid #b4b0b0 0.05px;
-}
-
-.name {
-  font-size: 1.1em;
-  color: black;
-}
-
-.date {
-  font-size: 0.8em;
-  color: gray;
-}
-
-.note {
-  padding: 10px 50px;
-}
-
-.note .links {
-  padding-top: 10px;
-}
-
-.note .bottom {
-  padding: 0;
-}
-
-.bottom {
-  margin: 25px 0 0 0;
-}
-
-.title {
-  font-size: 1.7em;
-  font-weight: bolder;
-  color: black;
-  padding-bottom: 10px;
-}
-
-.title:hover {
-  color: #323ebe;
-}
-
-.liga {
-  color: gray;
-}
-
-.liga:hover {
-  color: black;
-}
-
-.implinks {
-  color: #242323;
-  padding: 10px;
-  font-size: 0.8em;
-}
-
-.implinks:hover {
-  color: black;
-  border-radius: 5px;
-  background: #efefef;
-}
-
-.time {
-  color: gray;
-  font-size: 0.8em;
-  margin: 8px 0 0 12%;
-  padding-top: 6px;
-  display: inline-block;
-}
-
-.save {
-  display: inline-block;
-  padding: 3px 8px;
-  color: black;
-  background: #c9c5c5;
-  border-radius: 5px;
-  margin-left: 5px;
-}
-
-.save:hover {
-  background: gray;
-}
-
-.corner {
-  padding: 0;
+li {
+  list-style: none;
 }
 
 .banner {
@@ -205,7 +106,119 @@ header {
 
 .articles {
   background-color: transparent;
-  height: 900px;
+  height: 1400px;
+}
+
+.pic {
+  width: 40px;
+  border-radius: 30px;
+  margin: 0;
+}
+
+.profile {
+  padding: 0;
+}
+
+.profile p {
+  margin: 0 0 2px 20px;
+}
+
+.post-card {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: solid #b4b0b0 0.05px;
+}
+
+.name {
+  font-size: 1.1em;
+  color: black;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 0.8em;
+  color: gray;
+}
+
+.note {
+  padding: 10px 50px;
+}
+
+.note .links {
+  padding-top: 10px;
+}
+
+.note .bottom {
+  padding: 0;
+}
+
+.bottom {
+  margin: 25px 0 0 0;
+}
+
+.title {
+  font-size: 1.7em;
+  font-weight: bolder;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.title:hover {
+  color: #323ebe;
+}
+
+.liga {
+  color: gray;
+}
+
+.liga:hover {
+  color: black;
+}
+
+.implinks {
+  color: #242323;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+.implinks:hover {
+  color: black;
+  border-radius: 5px;
+  background: #efefef;
+}
+
+.time {
+  color: gray;
+  font-size: 0.8em;
+  margin: 8px 0 0 12%;
+  padding-top: 6px;
+  display: inline-block;
+}
+
+.save {
+  display: inline-block;
+  padding: 3px 8px;
+  color: black;
+  background: #c9c5c5;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.save:hover {
+  background: gray;
+}
+
+.corner {
+  padding: 0;
+}
+
+.post-card2 {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: solid #b4b0b0 0.05px;
+  margin-top: 10px;
 }
 
 .rightbar {
