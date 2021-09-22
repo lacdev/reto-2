@@ -1,7 +1,7 @@
 .rightbar {
   background-color: $columnBackgroundColor;
   height: auto;
-
+  max-width: 100%;
 }
   .card1{
   @include containers-sbr;
