@@ -275,6 +275,7 @@ header {
   padding: 15px 20px;
   border-radius: 10px;
   border: solid #b4b0b0 0.05px;
+  padding: 0 0 15px 0;
 }
 
 .name {
@@ -389,6 +390,21 @@ header {
 
 .card-nav:hover {
   background-color: #cbcbce;
+}
+
+.card-img {
+  margin-bottom: 20px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.profile-variant {
+  padding: 0 20px;
+}
+
+.card-variant {
+  padding: 0 20px 0 20px;
 }
 
 .rightbar {
