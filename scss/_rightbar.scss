@@ -1,21 +1,19 @@
 .rightbar {
   background-color: $columnBackgroundColor;
-  height: 600px;
-  
+  height: auto;
+border:solid black 1px;
 }
-.row{
-  display: flex;
-  max-width: 100%;
-
   .card1{
   @include containers-sbr;
-    p{
-      .link-card1{
-        color: $linkfontcolorsbr;
-      }
-    }
-  }
+  max-width: 100%;
+  
+}
   .card-listings{
     @include containers-sbr;
+    .header-listings{
+      @include header-bar;
+    }
   }
-}
+  
+
+  

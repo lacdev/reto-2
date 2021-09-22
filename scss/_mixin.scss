@@ -27,9 +27,19 @@
 
 //Mixins de Omar
 @mixin containers-sbr {
-    width: 100%;
-    background-color: $sidebarrightbgcolor;
-  padding: 16px;
+    
+  background-color: $sidebarrightbgcolor ;
+  padding: 20px;
   border-radius: 3%;
   color:black;
+  margin-bottom: 20px;
+}
+
+@mixin header-bar{
+  background-color: $sidebarrightbgcolor;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-decoration: none;
 }
