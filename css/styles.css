@@ -736,6 +736,12 @@ header {
   }
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .leftbar {
+    display: none;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 754px) {
   .profile {
     padding: 0 20px;
@@ -745,6 +751,12 @@ header {
   }
   .implinks {
     padding: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .rightbar {
+    display: none;
   }
 }
 

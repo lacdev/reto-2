@@ -42,7 +42,13 @@
 }
 
 //Media queries Brisah
-
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .leftbar{
+    display: none;
+  }
+  
+}
 //Media queries Daniel
 
 @media (min-width:320px) and (max-width:754px) {
@@ -61,3 +67,10 @@
 }
 
 //Media queries Omar
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .rightbar{
+    display: none;
+  }
+  
+}
